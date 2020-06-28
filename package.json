@@ -1,0 +1,27 @@
+{
+  "name": "vuepress-bug",
+  "version": "1.0.0",
+  "description": "vuepress 打包后样式丢失 bug",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashaofu/vuepress-bug.git"
+  },
+  "keywords": [
+    "vuepress",
+    "bug"
+  ],
+  "author": "nashaofu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nashaofu/vuepress-bug/issues"
+  },
+  "homepage": "https://github.com/nashaofu/vuepress-bug#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
