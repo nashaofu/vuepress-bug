@@ -22,3 +22,15 @@ npm run build
 ## 截图
 
 ![bug](bug.png)
+
+## 解决方案
+
+在`css-loader`配置项上加上`sideEffects:true`
+
+```js
+{
+  test: /\.css$/,
+  sideEffects: true,
+  use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+}
+```
